@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/*general styles*/
+
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+color: #3a3a3a;
+}
+
 
 header {
  background-color: aqua;
@@ -12,6 +21,8 @@ header {
 
 main {
     background-color:brown ;
+    /*make main element take up surplus space*/
+    flex: 1 0 auto;
 
 }
 
