@@ -59,7 +59,7 @@ header a {
 }
 
 main {
-    background-color: brown;
+    
     /*make main element take up surplus space*/
     flex: 1 0 auto;
     margin-top: 48px;
@@ -89,6 +89,11 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
 
 #social-networks {
     text-align: center;
@@ -96,6 +101,12 @@ nav {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;  
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 /* media query : tablets and larger */
 
