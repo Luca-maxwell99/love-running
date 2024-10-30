@@ -90,8 +90,12 @@ nav {
     font-size: 2rem;
 }
 
-footer {
-    background-color: chartreuse;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;   
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;  
 }
 /* media query : tablets and larger */
 
